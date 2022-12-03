@@ -178,7 +178,7 @@
          </cfquery> 
         <cfreturn>
     </cffunction>
-<!---new file update      --->
+<!---new file update    22  --->
     <cffunction name="newfileUpload" access="remote" returnformat="JSON">
         <cfargument name="referenceId"  required="true">
         <cfargument name="newfile"  required="true">
