@@ -1,0 +1,67 @@
+.labelName{ 
+    position:absolute;
+    background-color:white;
+    line-height:2%;
+    z-index:1;
+    margin-left:6px;
+    top:-1;
+    font-weight: 400px;
+    color: gray;
+ }
+ .personalDetailsHeader{
+      margin-left:14%;
+      /* font-family: "Times New Roman", Times, serif; */
+      /* color:rgb(123,104,238); */
+ }
+ 
+ .important{
+     color:red;
+     font-size: 20px;
+     padding:5px;
+ }
+ 
+ .fieldBorder{
+     border-radius: 6PX;
+ }
+ .totalMargin{
+     width:80%;
+     margin:auto;
+ }
+  .select2-selection{
+     border-radius: 10px !important;
+ }
+ #form label{
+    font-size:14px;
+ }
+ .navcontent{
+    margin-left: 30px;
+ }
+ .navicon{
+    margin-left: 68%;
+    margin-right: 3%;
+ }
+ .filterForm{
+    margin-left: 3%;
+ }
+ .datatableForCompleteDetails{
+   padding-left: 3%;
+   padding-right: 3%;
+ }
+ .filename{
+   font-size: 25px;
+   color: blue;
+ }
+ .multifile_remove_input {
+   font-size: 28px;
+   text-decoration: none;
+   margin-right: 10px;
+   color: red;
+   border: 1px solid red;
+   border-radius: 39px;
+   padding-left: 12px;
+   padding-right: 13px;
+   padding-bottom: 2px;
+ }
+ .uploaded_image{
+   margin-top: 10px;
+ }

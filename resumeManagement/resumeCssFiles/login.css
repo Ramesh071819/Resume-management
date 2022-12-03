@@ -1,0 +1,19 @@
+.forgetLink{
+    text-decoration:none;
+    color:orange;
+}
+.otpcardBody{ 
+    margin-left: 26%;
+    margin-top: 3%;
+ }
+  
+.submitBtn{
+    margin-left:30%;
+}
+.resumeText{
+  color:orange;
+}
+.resumeHeaderText{
+    margin-left:60%;
+     color:gray;
+}
