@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Detect Browser in JavaScript | CodingNepal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+  <body>
+    <div class="wrapper">
+      <h2>Browser:</h2>
+      <div class="logos">
+      </div>
+    </div>
+
+    <script>
+      let userAgent = navigator.userAgent;
+      let browser;
+      if(userAgent.match(/edg/i)){
+        browser = "edge";
+      }else if(userAgent.match(/firefox|fxios/i)){
+        browser = "firefox";
+      }else if(userAgent.match(/opr\//i)){
+        browser = "opera";
+      }else if(userAgent.match(/chrome|chromium|crios/i)){
+        browser = "chrome";
+      }else if(userAgent.match(/safari/i)){
+        browser = "safari";
+      }else{
+        alert("Other browser");
+      }
+      const logo = document.querySelector(`.logos .${browser}`);
+      if(logo){
+        logo.style.opacity = "1";
+      }
+    </script>
+
+  </body>
+</html>
