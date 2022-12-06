@@ -561,4 +561,13 @@
     </cfquery>
 <cfreturn qdatatable>
 </cffunction>
+<!--- ajax data for datatable 1--->
+    <cffunction  name="datatable" access="remote"  returnformat="JSON" >
+    <cfquery name="qdatatable" datasource="Employee">
+        SELECT *
+        FROM  [Employee].[dbo].[Emp]
+    </cfquery>
+<cfreturn qdatatable>
+</cffunction>
+
 </cfcomponent>
