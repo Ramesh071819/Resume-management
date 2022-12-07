@@ -20,7 +20,7 @@
 
 <div id='apidata'  apidata="#youtube.Filecontent#"></div>
 </cfoutput>
-
+<cfdump var='#result#'>
 
 </body>
 </html>
