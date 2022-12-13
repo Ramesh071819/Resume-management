@@ -569,5 +569,7 @@
     </cfquery>
 <cfreturn qdatatable>
 </cffunction>
+<cffunction  name="weatherAPI" access='remote' >
+</cffunction>
 
 </cfcomponent>
